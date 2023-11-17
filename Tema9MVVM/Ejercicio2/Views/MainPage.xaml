@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio2.Views.MainPage"             
+             xmlns:models="clr-namespace:Ejercicio2.Models">
+
+    <ContentPage.BindingContext>
+        <models:clsPersona/>
+    </ContentPage.BindingContext>
+
+    <VerticalStackLayout VerticalOptions="Center">
+        <Label x:Name="lblEj2" Text="{Binding Nombre}"/>
+        <Entry x:Name="entryEj2" Text="{Binding Nombre}"/>
+    </VerticalStackLayout>
+</ContentPage>

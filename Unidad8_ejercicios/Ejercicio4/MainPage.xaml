@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio4.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout>
+
+            <Border StrokeThickness="3" Margin="10" >
+                <Label HorizontalTextAlignment="Center" FontSize="Medium" FontAttributes="Bold">Understanding Your Dog's Behaviour</Label>
+            </Border>
+
+            <Border StrokeThickness="3" Margin="10">
+                <Label >The way a dog behaves depends on their age, breed (or type),personality and past experiences. Having a well-behaved dog starts with choosing a type and size of dog that suits you, your home and your lifestyle. However, dog behaviour is hugely tied to how you look after them.</Label>
+            </Border>
+            <Border StrokeThickness="3" Margin="10">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+                    <FlexLayout Wrap="Wrap" Grid.Column="0" Grid.Row="0" Grid.RowSpan="4" VerticalOptions="Start">
+
+                        <Image HeightRequest="100" WidthRequest="100" Margin="10" Source="max.jpg" />
+                        <Image HeightRequest="100" WidthRequest="100" Margin="10" Source="max.jpg"></Image>
+                        <Image HeightRequest="100" WidthRequest="100" Margin="10" Source="max.jpg"></Image>
+                    </FlexLayout>
+                  
+                    
+                                <Border StrokeThickness="3" Margin="10" Grid.Column="1" Grid.Row="0">
+                                    <Label>Never punish your dog for any mistakes they make during training. Simply ignore the mistakes and the behaviours that you don’t want and reward those that you do</Label>
+                                </Border>
+                    <Border StrokeThickness="3" Margin="10" Grid.Column="1" Grid.Row="1">
+                                    <Label>Find out what motivates your dog to help them learn. Work out what your dog’s favourite treat is but remember some dogs might prefer to work for a game or praise and affection. When training in a distracting environment or teaching a particularly difficult command you might find that a tastier reward like chicken or hotdog works best. Remember that the treats are part of your dog’s daily food ration.</Label>
+                                </Border>
+                    <Border StrokeThickness="3" Margin="10" Grid.Column="1" Grid.Row="2">
+                                    <Label>Be patient. Don’t get frustrated if your dog doesn’t pick it up straight away; remain calm and consider how you can make it easier for them. All dogs are individuals and will learn at different rates</Label>
+                                </Border>
+                    <Border StrokeThickness="3" Margin="10" Grid.Column="1" Grid.Row="3">
+                                    <Label>Short sessions are best. Overloading your dog won't help them to learn. Break your training up into regular short sessions.</Label>
+                                </Border>
+
+                </Grid>
+                
+            </Border>
+            <Border StrokeThickness="3" Margin="10" >
+                <Label Text="Footer" HorizontalTextAlignment="Center"></Label>
+            </Border>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

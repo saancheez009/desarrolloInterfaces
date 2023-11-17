@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tema9MVVM.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+             <StackLayout Margin="20">
+        <!-- Barra Slider -->
+        <Slider x:Name="slider" Minimum="1" Maximum="100"  />
+
+        <!-- Label para mostrar el valor del Slider -->
+        <Label Text="TEXTO" 
+               x:Name="txt"
+               FontSize="{Binding Path=Text , Source={x:Reference TamañoTextoEntry}}"/>
+
+        <!-- Entry para el tamaño de la fuente -->
+        <Entry x:Name="TamañoTextoEntry"  
+               BindingContext="{x:Reference slider}"
+               Keyboard="Numeric" 
+               Text="{Binding Mode=TwoWay, Path=Value, StringFormat='{0:F0}'}"/>
+
+                
+       
+
+
+        </StackLayout>
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

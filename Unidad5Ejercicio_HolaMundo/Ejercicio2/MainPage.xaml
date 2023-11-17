@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio2.MainPage">
+
+    <StackLayout >
+
+        <Slider Margin="0,25,0,0"
+            x:Name="slider"
+            Value="0"
+            Maximum="1"
+            Minimum="0"/>
+        
+
+        <ProgressBar 
+                Margin="0,25,0,0"
+                ProgressColor="Blue" 
+                BindingContext="{x:Reference slider}"
+                Progress="{Binding Value}" />
+    </StackLayout>
+
+
+
+</ContentPage>

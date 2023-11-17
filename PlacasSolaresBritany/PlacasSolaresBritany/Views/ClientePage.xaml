@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlacasSolaresBritany.Views.ClientePage"
+             Title="ClientePage" BackgroundColor="#020C23">
+    <FlexLayout Wrap="Wrap">
+        <VerticalStackLayout Padding="20,20,10,10">
+            <HorizontalStackLayout>
+                <Image Source="perfil.png" MaximumHeightRequest="150" MaximumWidthRequest="150" HorizontalOptions="Start" />
+                <VerticalStackLayout>
+                    <Label Text="SOLAREnergy" FontFamily="Imbue" FontSize="60" TextColor="#FFFFFF" Margin="10,10,0,0"/>
+                    <Label Text="Reda Santos Pardo" FontFamily="Imbue" FontSize="30" TextColor="#FFFFFF" Margin="10,40,0,0"/>
+
+                </VerticalStackLayout>
+
+            </HorizontalStackLayout>
+            <HorizontalStackLayout>
+                <VerticalStackLayout>
+                    <Label Text="Datos:" FontFamily="Imbue" FontSize="30" TextColor="#FFFFFF" Margin="60,40,0,0"/>
+
+                </VerticalStackLayout>
+                
+
+            </HorizontalStackLayout>
+            <HorizontalStackLayout>
+                <VerticalStackLayout BackgroundColor="#FFFFFF"  MinimumHeightRequest="400" MinimumWidthRequest="550" Margin="50,20,0,0">
+                    <Label Text="Dirección: " FontFamily="Imbue" FontSize="20" TextColor="#020C23" Margin="20,20,0,0"/>
+                    <Label Text="Calle :Calle Costo" FontFamily="Imbue" FontSize="20" TextColor="#020C23" Margin="20,30,0,0"/>
+                    <Label Text="Ciudad: Sevilla" FontFamily="Imbue" FontSize="20" TextColor="#020C23" Margin="20,30,0,0"/>
+                    <Label Text="Número: 12" FontFamily="Imbue" FontSize="20" TextColor="#020C23" Margin="20,30,0,0"/>
+                
+                </VerticalStackLayout>
+
+                <VerticalStackLayout BackgroundColor="#FFFFFF"  MinimumHeightRequest="400" MinimumWidthRequest="550" Margin="70,20,0,0" >
+                    
+                        <Label Text="Añadir nota " FontFamily="Imbue" FontSize="20" TextColor="#020C23" Margin="20,20,0,0"/>
+                        <Label Text="Hacer foto" FontFamily="Imbue" FontSize="20" TextColor="#020C23" Margin="20,30,0,0"/>
+                        <Label Text="Iniciar trayecto" FontFamily="Imbue" FontSize="20" TextColor="#020C23" Margin="20,30,0,0"/>
+                        <Label Text="Valoración final" FontFamily="Imbue" FontSize="20" TextColor="#020C23" Margin="20,30,0,0"/>
+                    
+                </VerticalStackLayout>
+
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+    </FlexLayout>
+</ContentPage>

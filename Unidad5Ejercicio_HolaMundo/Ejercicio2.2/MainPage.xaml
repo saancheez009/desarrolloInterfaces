@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio2._2.MainPage">
+
+
+    <StackLayout Margin="30">
+        <TimePicker Time="4:15:26" />
+        <DatePicker MinimumDate="10/01/2023"
+            MaximumDate="11/06/2023"
+            Date="10/06/2022" />
+           
+    </StackLayout>
+
+</ContentPage>

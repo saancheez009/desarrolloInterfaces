@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlacasSolaresBritany.MainPage" BackgroundColor="#020C23">
+    <FlexLayout Wrap="Wrap">
+    <ScrollView >
+        <VerticalStackLayout
+                Spacing="25"
+                Padding="30,0"
+                VerticalOptions="Center"
+                >
+            <Label Text="SOLAREnergy"  FontFamily="Imbue" FontSize="100" HorizontalOptions="Center" HorizontalTextAlignment="Center" TextColor="#FFFFFF" >
+				
+            </Label>
+
+            <Label Text="Usuario" TextColor="#FFFFFF" HorizontalOptions="Center" HorizontalTextAlignment="Center" FontSize="20" />
+
+
+            <Entry x:Name="usuario" BackgroundColor="#FFFFFF" HorizontalOptions="Center" HorizontalTextAlignment="Center" TextColor="#000000" IsPassword="False" MaximumHeightRequest="50" MaximumWidthRequest="300" MinimumHeightRequest="50" MinimumWidthRequest="300" />
+
+            <Label Text="Contraseña" TextColor="#FFFFFF" HorizontalOptions="Center" HorizontalTextAlignment="Center" FontSize="20"/>
+
+            <Entry x:Name="contraseña" IsPassword="True" BackgroundColor="#FFFFFF" HorizontalOptions="Center" HorizontalTextAlignment="Center" TextColor="#000000"  MaximumHeightRequest="50" MaximumWidthRequest="300" MinimumHeightRequest="50" MinimumWidthRequest="300" />
+
+            <Button x:Name="btnAcceder" Text="Entrar"  Clicked="btn_Clicked" TextColor="#020202" HorizontalOptions="Center" BackgroundColor="#FFFFFF" MaximumHeightRequest="50" MinimumHeightRequest="50" MaximumWidthRequest="100" MinimumWidthRequest="100" >
+            </Button>
+
+
+        </VerticalStackLayout>
+
+    </ScrollView>
+    </FlexLayout>
+</ContentPage>

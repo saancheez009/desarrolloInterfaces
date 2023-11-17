@@ -1,0 +1,83 @@
+is_global = true
+build_property.TargetFramework = net7.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Ejercicio6
+build_property.ProjectDir = C:\Users\bsanchez\Desktop\GitHub\Interfaces2\Ejercicio6\Ejercicio6\
+
+[C:/Users/bsanchez/Desktop/GitHub/Interfaces2/Ejercicio6/Ejercicio6/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Ejercicio6.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/bsanchez/Desktop/GitHub/Interfaces2/Ejercicio6/Ejercicio6/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Ejercicio6.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/bsanchez/Desktop/GitHub/Interfaces2/Ejercicio6/Ejercicio6/Ejercicio6/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Ejercicio6.Ejercicio6.App.xaml
+build_metadata.AdditionalFiles.TargetPath = Ejercicio6\App.xaml
+build_metadata.AdditionalFiles.RelativePath = Ejercicio6\App.xaml
+
+[C:/Users/bsanchez/Desktop/GitHub/Interfaces2/Ejercicio6/Ejercicio6/Ejercicio6/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Ejercicio6.Ejercicio6.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = Ejercicio6\AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = Ejercicio6\AppShell.xaml
+
+[C:/Users/bsanchez/Desktop/GitHub/Interfaces2/Ejercicio6/Ejercicio6/Ejercicio6/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Ejercicio6.Ejercicio6.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Ejercicio6\MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Ejercicio6\MainPage.xaml
+
+[C:/Users/bsanchez/Desktop/GitHub/Interfaces2/Ejercicio6/Ejercicio6/Ejercicio6/obj/Debug/net7.0-windows10.0.19041.0/win10-x64/Platforms/Windows/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Ejercicio6.Ejercicio6.obj.Debug.net7._0_windows10._0._19041._0.win10_x64.Platforms.Windows.App.xaml
+build_metadata.AdditionalFiles.TargetPath = Ejercicio6\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xaml
+build_metadata.AdditionalFiles.RelativePath = Ejercicio6\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xaml
+
+[C:/Users/bsanchez/Desktop/GitHub/Interfaces2/Ejercicio6/Ejercicio6/Ejercicio6/Platforms/Windows/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Ejercicio6.Ejercicio6.Platforms.Windows.App.xaml
+build_metadata.AdditionalFiles.TargetPath = Ejercicio6\Platforms\Windows\App.xaml
+build_metadata.AdditionalFiles.RelativePath = Ejercicio6\Platforms\Windows\App.xaml
+
+[C:/Users/bsanchez/Desktop/GitHub/Interfaces2/Ejercicio6/Ejercicio6/Ejercicio6/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Ejercicio6.Ejercicio6.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Ejercicio6\Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Ejercicio6\Resources\Styles\Colors.xaml
+
+[C:/Users/bsanchez/Desktop/GitHub/Interfaces2/Ejercicio6/Ejercicio6/Ejercicio6/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Ejercicio6.Ejercicio6.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Ejercicio6\Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Ejercicio6\Resources\Styles\Styles.xaml
+
+[C:/Users/bsanchez/Desktop/GitHub/Interfaces2/Ejercicio6/Ejercicio6/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Ejercicio6.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/bsanchez/Desktop/GitHub/Interfaces2/Ejercicio6/Ejercicio6/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Ejercicio6.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/bsanchez/Desktop/GitHub/Interfaces2/Ejercicio6/Ejercicio6/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Ejercicio6.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
