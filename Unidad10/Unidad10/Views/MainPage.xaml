@@ -1,18 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Unidad10.MainPage"
+             x:Class="Unidad10.Views.MainPage"
              xmlns:viewModels="clr-namespace:Unidad10.ViewModels">
 
     <ContentPage.BindingContext>
         <viewModels:MainPageVM></viewModels:MainPageVM>
     </ContentPage.BindingContext>
 
-    <VerticalStackLayout
-         <ListView ItemsSource="{Binding ListadoPersonas}" SelectedItem="{Binding PersonaSeleccionada}">
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <ListView ItemsSource="{Binding ListadoPersona}" SelectedItem="{Binding PersonaSeleccionada}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Label BindingContext="Nombre"></Label>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
             
-        </ListView>
-        <Button Command="{Binding BuscarCommand}"></Button>
-    </VerticalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+    
 
 </ContentPage>

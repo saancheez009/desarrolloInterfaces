@@ -5,17 +5,15 @@ VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio1", "Tema9MVVM\Ejercicio1.csproj", "{CB63D030-6A69-4F93-873A-2204A5EA60F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio2", "Ejercicio2\Ejercicio2.csproj", "{94F4941D-F1E8-4123-9F41-E59B4F4887C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio2", "Ejercicio2\Ejercicio2.csproj", "{94F4941D-F1E8-4123-9F41-E59B4F4887C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio3", "Ejercicio3\Ejercicio3.csproj", "{0E4039DB-41D1-4461-9AC0-206CEF65E044}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio3", "Ejercicio3\Ejercicio3.csproj", "{0E4039DB-41D1-4461-9AC0-206CEF65E044}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio4", "Ejercicio4\Ejercicio4.csproj", "{8884E402-40ED-4970-98BD-ECC3B35D71BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio4", "Ejercicio4\Ejercicio4.csproj", "{8884E402-40ED-4970-98BD-ECC3B35D71BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio5", "Ejercicio5\Ejercicio5.csproj", "{5397F7EC-EB09-4FA9-BBD6-AD3D9072C84D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio5", "Ejercicio5\Ejercicio5.csproj", "{5397F7EC-EB09-4FA9-BBD6-AD3D9072C84D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BibliotecaEj3", "BibliotecaEj3", "{930391E8-6916-4D9C-A51C-8D9F96120A27}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Biblioteca", "Biblioteca", "{5267D527-3D38-486A-B427-F4C8DCF70D7C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biblioteca", "Biblioteca\Biblioteca.csproj", "{9F4388B5-76EE-495C-97B7-312E3B04F906}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +51,10 @@ Global
 		{5397F7EC-EB09-4FA9-BBD6-AD3D9072C84D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5397F7EC-EB09-4FA9-BBD6-AD3D9072C84D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5397F7EC-EB09-4FA9-BBD6-AD3D9072C84D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{9F4388B5-76EE-495C-97B7-312E3B04F906}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F4388B5-76EE-495C-97B7-312E3B04F906}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F4388B5-76EE-495C-97B7-312E3B04F906}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F4388B5-76EE-495C-97B7-312E3B04F906}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

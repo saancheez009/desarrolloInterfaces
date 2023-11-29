@@ -1,4 +1,4 @@
-﻿namespace Unidad10
+﻿namespace Unidad10.Views
 {
     public partial class MainPage : ContentPage
     {
