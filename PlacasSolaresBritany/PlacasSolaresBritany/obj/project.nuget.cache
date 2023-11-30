@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7kv9oBRep3NFYj0ksyqqi0frJW5TO+PzAyi9MtlAkfj3zUQHQpm6M+K4Vdyd46LW4xpy1U8RfQJShaeW//X4TA==",
+  "dgSpecHash": "qWuAm+MpWzCPbKJolFFl9M9vAuOp+N6nrhC4nZpuMSzimSj8W10bc6ctgBYa0R4HUweq/Cxq9q+JRgbYKTFxRg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\bsanchez\\Desktop\\GitHub\\Interfaces2\\PlacasSolaresBritany\\PlacasSolaresBritany\\PlacasSolaresBritany.csproj",
+  "projectFilePath": "C:\\Users\\bsanchez\\Desktop\\GitHub\\desarrolloInterfaces\\PlacasSolaresBritany\\PlacasSolaresBritany\\PlacasSolaresBritany.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bsanchez\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\bsanchez\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",

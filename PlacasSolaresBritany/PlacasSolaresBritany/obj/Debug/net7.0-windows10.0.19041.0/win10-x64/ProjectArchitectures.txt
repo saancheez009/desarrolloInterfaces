@@ -1,1 +1,1 @@
-C:\Users\bsanchez\Desktop\GitHub\Interfaces2\PlacasSolaresBritany\PlacasSolaresBritany\PlacasSolaresBritany.csproj;x64
+C:\Users\bsanchez\Desktop\GitHub\desarrolloInterfaces\PlacasSolaresBritany\PlacasSolaresBritany\PlacasSolaresBritany.csproj;x64
