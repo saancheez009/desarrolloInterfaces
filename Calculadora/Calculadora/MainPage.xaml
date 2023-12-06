@@ -1,93 +1,211 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Calculadora.MainPage">
+             x:Class="Calculadora.MainPage"
+             Padding="{OnPlatform iOS='0,20,0,0'}"
+             BackgroundColor="{DynamicResource SecondaryColor}">
+    <Grid
+        Padding="5,02"
+        BackgroundColor="Grey"
+        ColumnSpacing="1"
+        RowSpacing="1">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
 
-    <!--<ContentPage.BindingContext>
-        <local:DecimalKeypadViewModel />
-    </ContentPage.BindingContext>-->
-    <ContentPage.Resources>
-        <Style TargetType="Button">
-            <Setter Property="FontSize" Value="32" />
-            <Setter Property="BorderWidth" Value="1" />
-            <Setter Property="BorderColor" Value="Black" />
-        </Style>
-    </ContentPage.Resources>
+        <Label
+            x:Name="result"
+            Grid.ColumnSpan="4"
+            BackgroundColor="White"
+            FontAttributes="Bold"
+            FontSize="48"
+            HorizontalTextAlignment="End"
+            LineBreakMode="NoWrap"
+            Text="0"
+            TextColor="BlueViolet"
+            VerticalTextAlignment="Center"/>
 
-    <Grid WidthRequest="240"
-          HeightRequest="480"
-          ColumnDefinitions="80, 80, 80"
-          RowDefinitions="Auto, Auto, Auto, Auto, Auto, Auto"
-          ColumnSpacing="2"
-          RowSpacing="2"
-          HorizontalOptions="Center"
-          VerticalOptions="Center">
-        <Label Text="{Binding Entry}"
-               Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3"
-               Margin="0,0,10,0"
-               FontSize="32"
-               LineBreakMode="HeadTruncation"
-               VerticalTextAlignment="Center"
-               HorizontalTextAlignment="End" />
-        <Button Text="CLEAR"
-                Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"
-                Command="{Binding ClearCommand}" />
-        <Button Text="&#x21E6;"
-                Grid.Row="1" Grid.Column="2"
-                Command="{Binding BackspaceCommand}" />
-        
-        <Button Text="="
-                Grid.Row="1" Grid.Column="3"/>
-        <Button Text="+"
-        Grid.Row="2" Grid.Column="1"/>
-        <Button Text="-"
-        Grid.Row="2" Grid.Column="2"/>
-        <Button Text="%"
-        Grid.Row="2" Grid.Column="3"/>
-        
-        <Button Text="7"
-                Grid.Row="3" Grid.Column="0"
-                Command="{Binding DigitCommand}"
-                CommandParameter="7" />
-        <Button Text="8"
-                Grid.Row="3" Grid.Column="1"
-                Command="{Binding DigitCommand}"
-                CommandParameter="8" />
-        <Button Text="9"
-                Grid.Row="3" Grid.Column="2"
-                Command="{Binding DigitCommand}"
-                CommandParameter="9" />
-        <Button Text="4"
-                Grid.Row="4" Grid.Column="0"
-                Command="{Binding DigitCommand}"
-                CommandParameter="4" />
-        <Button Text="5"
-                Grid.Row="4" Grid.Column="1"
-                Command="{Binding DigitCommand}"
-                CommandParameter="5" />
-        <Button Text="6"
-                Grid.Row="4" Grid.Column="2"
-                Command="{Binding DigitCommand}"
-                CommandParameter="6" />
-        <Button Text="1"
-                Grid.Row="5" Grid.Column="0"
-                Command="{Binding DigitCommand}"
-                CommandParameter="1" />
-        <Button Text="2"
-                Grid.Row="5" Grid.Column="1"
-                Command="{Binding DigitCommand}"
-                CommandParameter="2" />
-        <Button Text="3"
-                Grid.Row="5" Grid.Column="2"
-                Command="{Binding DigitCommand}"
-                CommandParameter="3" />
-        <Button Text="0"
-                Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2"
-                Command="{Binding DigitCommand}"
-                CommandParameter="0" />
-        <Button Text="&#x00B7;"
-                Grid.Row="6" Grid.Column="2"
-                Command="{Binding DigitCommand}"
-                CommandParameter="." />
+        <Button
+            Grid.Row="1"
+            Grid.ColumnSpan="2"
+            BackgroundColor="LightGrey"
+            Text="C"
+            FontSize="36"
+            CornerRadius="0"
+            Clicked="OnClear"/>
+
+        <Button
+            Grid.Row="1"
+            Grid.Column="2"
+            BackgroundColor="LightGrey"
+            Text="x2"
+            FontSize="36"
+            CornerRadius="0"
+            Clicked="OnSquare"
+            TextColor="Black"/>
+
+        <Button
+            Grid.Row="2"
+            Grid.Column="0"
+            BackgroundColor="White"
+            Text="7"
+            FontSize="36"
+            CornerRadius="0"
+            TextColor="Black"
+            Clicked="OnNumberSelection"/>
+
+        <Button
+            Grid.Row="2"
+            Grid.Column="1"
+            BackgroundColor="White"
+            Text="8"
+            FontSize="36"
+            CornerRadius="0"
+            TextColor="Black"
+            Clicked="OnNumberSelection"/>
+
+        <Button
+            Grid.Row="2"
+            Grid.Column="2"
+            BackgroundColor="White"
+            Text="9"
+            FontSize="36"
+            CornerRadius="0"
+            TextColor="Black"
+            Clicked="OnNumberSelection"/>
+
+        <Button
+            Grid.Row="3"
+            Grid.Column="0"
+            BackgroundColor="White"
+            Text="4"
+            FontSize="36"
+            CornerRadius="0"
+            TextColor="Black"
+            Clicked="OnNumberSelection"/>
+
+        <Button
+            Grid.Row="3"
+            Grid.Column="1"
+            BackgroundColor="White"
+            Text="5"
+            FontSize="36"
+            CornerRadius="0"
+            TextColor="Black"
+            Clicked="OnNumberSelection"/>
+
+        <Button
+            Grid.Row="3"
+            Grid.Column="2"
+            BackgroundColor="White"
+            Text="6"
+            FontSize="36"
+            CornerRadius="0"
+            TextColor="Black"
+            Clicked="OnNumberSelection"/>
+
+        <Button
+            Grid.Row="4"
+            Grid.Column="0"
+            BackgroundColor="White"
+            Text="3"
+            FontSize="36"
+            CornerRadius="0"
+            TextColor="Black"
+            Clicked="OnNumberSelection"/>
+
+        <Button
+            Grid.Row="4"
+            Grid.Column="1"
+            BackgroundColor="White"
+            Text="2"
+            FontSize="36"
+            CornerRadius="0"
+            TextColor="Black"
+            Clicked="OnNumberSelection"/>
+
+        <Button
+            Grid.Row="4"
+            Grid.Column="2"
+            BackgroundColor="White"
+            Text="1"
+            FontSize="36"
+            CornerRadius="0"
+            TextColor="Black"
+            Clicked="OnNumberSelection"/>
+
+        <Button
+            Grid.Row="5"
+            Grid.Column="0"
+            Grid.ColumnSpan="3"
+            BackgroundColor="White"
+            Text="0"
+            FontSize="36"
+            CornerRadius="0"
+            TextColor="Black"
+            Clicked="OnNumberSelection"/>
+
+        <Button
+            Grid.Row="1"
+            Grid.Column="3"
+            BackgroundColor="BlueViolet"
+            Text="-"
+            FontSize="36"
+            CornerRadius="0"
+            TextColor="White"
+            Clicked="OnNumberSelection"/>
+
+        <Button
+            Grid.Row="2"
+            Grid.Column="3"
+            BackgroundColor="BlueViolet"
+            Text="+"
+            FontSize="36"
+            CornerRadius="0"
+            TextColor="White"
+            Clicked="OnNumberSelection"/>
+
+        <Button
+            Grid.Row="3"
+            Grid.Column="3"
+            BackgroundColor="BlueViolet"
+            Text="*"
+            FontSize="36"
+            CornerRadius="0"
+            TextColor="White"
+            Clicked="OnNumberSelection"/>
+
+        <Button
+            Grid.Row="4"
+            Grid.Column="3"
+            BackgroundColor="BlueViolet"
+            Text="%"
+            FontSize="36"
+            CornerRadius="0"
+            TextColor="White"
+            Clicked="OnNumberSelection"/>
+
+        <Button
+            Grid.Row="5"
+            Grid.Column="3"
+            BackgroundColor="BlueViolet"
+            Text="="
+            FontSize="36"
+            CornerRadius="0"
+            TextColor="White"
+            Clicked="OnNumberSelection"/>
+
+        <!--https://youtu.be/nc8yU_DOIoI?si=_Bl143Br-qFFieu4-->
     </Grid>
 </ContentPage>
