@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "de4xlNm5k9WLjGyZwtxeAzL1Qk4dVfrNUNn+Jzasu5UbpBvydaDmpU/Iva6tPpF+MULfez5mGkpYcgGU1umfVw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\bsanchez\\Desktop\\GitHub\\desarrolloInterfaces\\Unidad11\\DAL\\DAL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bsanchez\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

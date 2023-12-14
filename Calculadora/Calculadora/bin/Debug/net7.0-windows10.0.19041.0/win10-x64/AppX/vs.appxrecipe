@@ -29,29 +29,29 @@
     <AppXManifest Include="C:\Users\Britany\Desktop\GitHub\desarrolloInterfaces\Calculadora\Calculadora\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-12-08T17:43:29.443</Modified>
+      <Modified>2023-12-14T19:28:45.791</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Britany\Desktop\GitHub\desarrolloInterfaces\Calculadora\Calculadora\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-12-08T17:43:29.278</Modified>
+      <Modified>2023-12-14T19:28:45.391</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Britany\Desktop\GitHub\desarrolloInterfaces\Calculadora\Calculadora\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Calculadora.runtimeconfig.json">
       <PackagePath>Calculadora.runtimeconfig.json</PackagePath>
-      <Modified>2023-12-06T18:54:52.019</Modified>
+      <Modified>2023-12-14T19:28:44.950</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Britany\Desktop\GitHub\desarrolloInterfaces\Calculadora\Calculadora\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Calculadora.dll">
       <PackagePath>Calculadora.dll</PackagePath>
-      <Modified>2023-12-08T17:43:28.658</Modified>
+      <Modified>2023-12-14T19:28:42.735</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Britany\Desktop\GitHub\desarrolloInterfaces\Calculadora\Calculadora\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Calculadora.exe</PackagePath>
-      <Modified>2023-12-08T17:43:28.662</Modified>
+      <Modified>2023-12-14T19:28:42.847</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Britany\Desktop\GitHub\desarrolloInterfaces\Calculadora\Calculadora\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Calculadora.deps.json">
       <PackagePath>Calculadora.deps.json</PackagePath>
-      <Modified>2023-12-06T21:20:24.296</Modified>
+      <Modified>2023-12-14T19:28:44.766</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Britany\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.14\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>

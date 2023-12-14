@@ -1,0 +1,192 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
+        }
+      },
+      "Unidad11/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/Unidad11.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unidad11.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Newtonsoft.Json/13.0.3": {
+      "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "BL/1.0.0": {
+      "type": "project",
+      "path": "../BL/BL.csproj",
+      "msbuildProject": "../BL/BL.csproj"
+    },
+    "DAL/1.0.0": {
+      "type": "project",
+      "path": "../DAL/DAL.csproj",
+      "msbuildProject": "../DAL/DAL.csproj"
+    },
+    "Unidad11/1.0.0": {
+      "type": "project",
+      "path": "../Unidad11/Unidad11.csproj",
+      "msbuildProject": "../Unidad11/Unidad11.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "BL >= 1.0.0",
+      "DAL >= 1.0.0",
+      "Unidad11 >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\bsanchez\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\bsanchez\\Desktop\\GitHub\\desarrolloInterfaces\\Unidad11\\ENTIDADES\\ENTIDADES.csproj",
+      "projectName": "ENTIDADES",
+      "projectPath": "C:\\Users\\bsanchez\\Desktop\\GitHub\\desarrolloInterfaces\\Unidad11\\ENTIDADES\\ENTIDADES.csproj",
+      "packagesPath": "C:\\Users\\bsanchez\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\bsanchez\\Desktop\\GitHub\\desarrolloInterfaces\\Unidad11\\ENTIDADES\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\bsanchez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\bsanchez\\Desktop\\GitHub\\desarrolloInterfaces\\Unidad11\\BL\\BL.csproj": {
+              "projectPath": "C:\\Users\\bsanchez\\Desktop\\GitHub\\desarrolloInterfaces\\Unidad11\\BL\\BL.csproj"
+            },
+            "C:\\Users\\bsanchez\\Desktop\\GitHub\\desarrolloInterfaces\\Unidad11\\DAL\\DAL.csproj": {
+              "projectPath": "C:\\Users\\bsanchez\\Desktop\\GitHub\\desarrolloInterfaces\\Unidad11\\DAL\\DAL.csproj"
+            },
+            "C:\\Users\\bsanchez\\Desktop\\GitHub\\desarrolloInterfaces\\Unidad11\\Unidad11\\Unidad11.csproj": {
+              "projectPath": "C:\\Users\\bsanchez\\Desktop\\GitHub\\desarrolloInterfaces\\Unidad11\\Unidad11\\Unidad11.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "El proyecto Unidad11 no es compatible con net6.0 (.NETCoreApp,Version=v6.0). El proyecto Unidad11 admite:\r\n  - net7.0-android33.0 (.NETCoreApp,Version=v7.0)\r\n  - net7.0-ios16.1 (.NETCoreApp,Version=v7.0)\r\n  - net7.0-maccatalyst16.1 (.NETCoreApp,Version=v7.0)\r\n  - net7.0-windows10.0.19041 (.NETCoreApp,Version=v7.0)",
+      "libraryId": "Unidad11",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
