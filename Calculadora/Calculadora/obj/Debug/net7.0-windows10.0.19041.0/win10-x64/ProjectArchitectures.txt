@@ -1,1 +1,1 @@
-C:\Users\bsanchez\Desktop\GitHub\desarrolloInterfaces\Calculadora\Calculadora\Calculadora.csproj;x64
+C:\Users\Britany\Desktop\GitHub\desarrolloInterfaces\Calculadora\Calculadora\Calculadora.csproj;x64

@@ -164,7 +164,7 @@
             FontSize="36"
             CornerRadius="0"
             TextColor="White"
-            Clicked="OnNumberSelection"/>
+            Clicked="OnOperatorSelection"/>
 
         <Button
             Grid.Row="2"
@@ -174,7 +174,7 @@
             FontSize="36"
             CornerRadius="0"
             TextColor="White"
-            Clicked="OnNumberSelection"/>
+            Clicked="OnOperatorSelection"/>
 
         <Button
             Grid.Row="3"
@@ -184,7 +184,7 @@
             FontSize="36"
             CornerRadius="0"
             TextColor="White"
-            Clicked="OnNumberSelection"/>
+            Clicked="OnOperatorSelection"/>
 
         <Button
             Grid.Row="4"
@@ -194,7 +194,7 @@
             FontSize="36"
             CornerRadius="0"
             TextColor="White"
-            Clicked="OnNumberSelection"/>
+            Clicked="OnOperatorSelection"/>
 
         <Button
             Grid.Row="5"
@@ -204,7 +204,7 @@
             FontSize="36"
             CornerRadius="0"
             TextColor="White"
-            Clicked="OnNumberSelection"/>
+            Clicked="OnCalculate"/>
 
         <!--https://youtu.be/nc8yU_DOIoI?si=_Bl143Br-qFFieu4-->
     </Grid>
