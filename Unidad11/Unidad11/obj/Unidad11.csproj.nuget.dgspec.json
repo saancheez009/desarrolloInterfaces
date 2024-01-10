@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bsanchez\\Desktop\\GitHub\\desarrolloInterfaces\\Unidad11\\Unidad11\\Unidad11.csproj": {}
+    "C:\\Users\\Britany\\Desktop\\GitHub\\desarrolloInterfaces\\Unidad11\\Unidad11\\Unidad11.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bsanchez\\Desktop\\GitHub\\desarrolloInterfaces\\Unidad11\\Unidad11\\Unidad11.csproj": {
+    "C:\\Users\\Britany\\Desktop\\GitHub\\desarrolloInterfaces\\Unidad11\\Unidad11\\Unidad11.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bsanchez\\Desktop\\GitHub\\desarrolloInterfaces\\Unidad11\\Unidad11\\Unidad11.csproj",
+        "projectUniqueName": "C:\\Users\\Britany\\Desktop\\GitHub\\desarrolloInterfaces\\Unidad11\\Unidad11\\Unidad11.csproj",
         "projectName": "Unidad11",
-        "projectPath": "C:\\Users\\bsanchez\\Desktop\\GitHub\\desarrolloInterfaces\\Unidad11\\Unidad11\\Unidad11.csproj",
-        "packagesPath": "C:\\Users\\bsanchez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bsanchez\\Desktop\\GitHub\\desarrolloInterfaces\\Unidad11\\Unidad11\\obj\\",
+        "projectPath": "C:\\Users\\Britany\\Desktop\\GitHub\\desarrolloInterfaces\\Unidad11\\Unidad11\\Unidad11.csproj",
+        "packagesPath": "C:\\Users\\Britany\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Britany\\Desktop\\GitHub\\desarrolloInterfaces\\Unidad11\\Unidad11\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\bsanchez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Britany\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

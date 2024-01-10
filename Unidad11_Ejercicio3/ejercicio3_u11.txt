@@ -1,0 +1,25 @@
+CAPA BL:
+
+-clsListadoDepartamentosBL
+-clsListadoPersonasBL
+
+CAPA DAL:
+
+-clsConnection
+-clsListadoDepartamentosDAL
+-clsListadoPersonasDAL
+-HandlerDepartamento
+-HandlerPersona
+
+ENTIDADES:
+
+-clsDepartamento
+-clsPersona
+
+CAPA UI
+
+ViewModels
+
+
+Views
+-MainPage
