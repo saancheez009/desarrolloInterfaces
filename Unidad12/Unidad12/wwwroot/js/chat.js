@@ -1,5 +1,10 @@
 ﻿"use strict";
-
+class clsMensajeUsuario {
+    constructor(nombreUsuario, mensajeUsuario) {
+        this.nombreUsuario = nombreUsuario;
+        this.mensajeUsuario = mensajeUsuario;
+    }
+}
 var connection = new signalR.HubConnectionBuilder().withUrl("/chatHub").build();
 
 //Disable the send button until connection is established.
