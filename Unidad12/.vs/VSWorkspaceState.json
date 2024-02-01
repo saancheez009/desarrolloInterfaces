@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Unidad12",
+    "\\Unidad12\\Hubs",
+    "\\Unidad12\\Pages",
+    "\\Unidad12\\wwwroot",
+    "\\Unidad12\\wwwroot\\js"
   ],
-  "SelectedNode": "\\Unidad12.sln",
+  "SelectedNode": "\\Unidad12\\wwwroot\\js\\chat.js",
   "PreviewInSolutionExplorer": false
 }
