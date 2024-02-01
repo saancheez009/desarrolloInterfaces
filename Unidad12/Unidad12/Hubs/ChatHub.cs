@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.SignalR;
-using Microsoft.AspNetCore.SignalR;
 
 namespace Unidad12.Hubs
 {
