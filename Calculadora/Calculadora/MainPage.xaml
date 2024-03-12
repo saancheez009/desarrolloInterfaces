@@ -25,7 +25,7 @@
         </Grid.ColumnDefinitions>
 
         <Label
-            x:Name="result"
+            x:Name="resultado"
             Grid.ColumnSpan="4"
             BackgroundColor="White"
             FontAttributes="Bold"
@@ -43,7 +43,7 @@
             Text="C"
             FontSize="36"
             CornerRadius="0"
-            Clicked="OnClear"/>
+            Clicked="Operacion"/>
 
         <Button
             Grid.Row="1"
@@ -52,7 +52,7 @@
             Text="x2"
             FontSize="36"
             CornerRadius="0"
-            Clicked="OnSquare"
+            Clicked="Operacion"
             TextColor="Black"/>
 
         <Button
@@ -63,7 +63,7 @@
             FontSize="36"
             CornerRadius="0"
             TextColor="Black"
-            Clicked="OnNumberSelection"/>
+            Clicked="Numeros"/>
 
         <Button
             Grid.Row="2"
@@ -73,7 +73,7 @@
             FontSize="36"
             CornerRadius="0"
             TextColor="Black"
-            Clicked="OnNumberSelection"/>
+            Clicked="Numeros"/>
 
         <Button
             Grid.Row="2"
@@ -83,7 +83,7 @@
             FontSize="36"
             CornerRadius="0"
             TextColor="Black"
-            Clicked="OnNumberSelection"/>
+            Clicked="Numeros"/>
 
         <Button
             Grid.Row="3"
@@ -93,7 +93,7 @@
             FontSize="36"
             CornerRadius="0"
             TextColor="Black"
-            Clicked="OnNumberSelection"/>
+            Clicked="Numeros"/>
 
         <Button
             Grid.Row="3"
@@ -103,7 +103,7 @@
             FontSize="36"
             CornerRadius="0"
             TextColor="Black"
-            Clicked="OnNumberSelection"/>
+            Clicked="Numeros"/>
 
         <Button
             Grid.Row="3"
@@ -113,7 +113,7 @@
             FontSize="36"
             CornerRadius="0"
             TextColor="Black"
-            Clicked="OnNumberSelection"/>
+            Clicked="Numeros"/>
 
         <Button
             Grid.Row="4"
@@ -123,7 +123,7 @@
             FontSize="36"
             CornerRadius="0"
             TextColor="Black"
-            Clicked="OnNumberSelection"/>
+            Clicked="Numeros"/>
 
         <Button
             Grid.Row="4"
@@ -133,7 +133,7 @@
             FontSize="36"
             CornerRadius="0"
             TextColor="Black"
-            Clicked="OnNumberSelection"/>
+            Clicked="Numeros"/>
 
         <Button
             Grid.Row="4"
@@ -143,7 +143,7 @@
             FontSize="36"
             CornerRadius="0"
             TextColor="Black"
-            Clicked="OnNumberSelection"/>
+            Clicked="Numeros"/>
 
         <Button
             Grid.Row="5"
@@ -154,7 +154,7 @@
             FontSize="36"
             CornerRadius="0"
             TextColor="Black"
-            Clicked="OnNumberSelection"/>
+            Clicked="Numeros"/>
 
         <Button
             Grid.Row="1"
@@ -164,7 +164,7 @@
             FontSize="36"
             CornerRadius="0"
             TextColor="White"
-            Clicked="OnOperatorSelection"/>
+            Clicked="Operacion"/>
 
         <Button
             Grid.Row="2"
@@ -174,7 +174,7 @@
             FontSize="36"
             CornerRadius="0"
             TextColor="White"
-            Clicked="OnOperatorSelection"/>
+            Clicked="Operacion"/>
 
         <Button
             Grid.Row="3"
@@ -184,7 +184,7 @@
             FontSize="36"
             CornerRadius="0"
             TextColor="White"
-            Clicked="OnOperatorSelection"/>
+            Clicked="Operacion"/>
 
         <Button
             Grid.Row="4"
@@ -194,7 +194,7 @@
             FontSize="36"
             CornerRadius="0"
             TextColor="White"
-            Clicked="OnOperatorSelection"/>
+            Clicked="Operacion"/>
 
         <Button
             Grid.Row="5"
@@ -204,7 +204,7 @@
             FontSize="36"
             CornerRadius="0"
             TextColor="White"
-            Clicked="OnCalculate"/>
+            Clicked="Resultado"/>
 
         <!--https://youtu.be/nc8yU_DOIoI?si=_Bl143Br-qFFieu4-->
     </Grid>

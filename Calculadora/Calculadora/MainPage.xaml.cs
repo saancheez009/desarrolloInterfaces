@@ -2,78 +2,77 @@
 {
     public partial class MainPage : ContentPage
     {
-        int currentState = 1;
-        string operatorMath;
-        double firstNum, secondNum;
+        int primerNumero = 0;
+        int segundoNumero = 0;
         public MainPage()
         {
             InitializeComponent();
-            OnClear(this, null);
         }
 
-        private void OnClear(object sender, EventArgs e)
+        /// <summary>
+        /// Evento asociado al click de los botones que realizarán una operación entre el primer número y el segundo número
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void Operacion(object sender, EventArgs e)
         {
-            firstNum = 0;
-            secondNum=0;
-            currentState = 1;
-            this.result.Text = "0";
-        }
+            //Casteamos el sender a button y se lo asignamos a botonPulsado
+            Button botonPulsado = (Button)sender;
+            string operacionSeleccionada = botonPulsado.Text;
 
-        private void OnSquare(object sender, EventArgs e)
-        {
-            if(firstNum == 0)
+            double resultado = 0;
+            switch (operacionSeleccionada)
             {
-                return;
-                firstNum = firstNum * firstNum;
-                this.result.Text=firstNum.ToString();   
+                case "-":
+                    resultado = primerNumero - segundoNumero;
+
+                    break;
+
+                case "+":
+                    resultado= primerNumero + segundoNumero;
+                    break;
+
+                case "*":
+                    resultado = primerNumero * segundoNumero;
+                    break;
+
+                case "%":
+                    resultado = primerNumero / segundoNumero;
+                    break;
+
+                case "x2":
+                    resultado = primerNumero * primerNumero;
+                    break;
+
+                case "C":
+
+                    break;
             }
+            
         }
 
-        private void OnNumberSelection(object sender, EventArgs e)
+        /// <summary>
+        /// Evento asociado al click del botón " = ", mostrará el resultado de la operación por pantalla
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void Resultado(object sender, EventArgs e)
         {
-            Button button = (Button)sender;
-            string btnPulsado = button.Text;
-            if (this.result.Text=="0"|| currentState < 0)
-            {
-                this.result.Text = string.Empty;
-                if (currentState<0)
-                    currentState *= -1;
-            }
-            this.result.Text += btnPulsado;
-            double number;
-            if(double.TryParse(this.result.Text, out number))
-            {
-                this.result.Text=number.ToString("");
-                if (currentState == 1)
-                {
-                    firstNum = number;
-                }
-                else
-                {
-                    secondNum = number; 
-                }
-               
-            }
+
         }
 
-        void OnOperatorSelection(object sender, EventArgs e)
+        /// <summary>
+        /// Evento asociado al click de los botones números, asigna el valor del texto del botón al primer número de la operación o al segundo
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void Numeros(object sender, EventArgs e)
         {
-            currentState = -2;
-            Button button = (Button)sender;
-            string btnPulsado = button.Text;
-            operatorMath = btnPulsado;
+            Button botonPulsado = (Button)sender;
+            primerNumero = Int32.Parse(botonPulsado.Text);
+            segundoNumero = Int32.Parse(botonPulsado.Text);
+
         }
 
-        void OnCalculate(object sender, EventArgs e)
-        {
-            if (currentState == 2)
-            {
-                var result = calculate.Calcular(firstNum, secondNum, operatorMath);
-                this.result.Text = result.ToString();
-                firstNum= result;
-                currentState = -1;
-                //secondNum= result;
-            }
-        }
     }
 }
