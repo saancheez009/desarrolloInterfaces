@@ -25,7 +25,7 @@
         </Grid.ColumnDefinitions>
 
         <Label
-            x:Name="resultado"
+            x:Name="LblResultado"
             Grid.ColumnSpan="4"
             BackgroundColor="White"
             FontAttributes="Bold"
